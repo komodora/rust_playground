@@ -41,8 +41,17 @@
         "rust-lang.rust-analyzer",
         "serayuzgur.crates",
         "vadimcn.vscode-lldb",
-        "tamasfe.even-better-toml"
-      ]
+        "tamasfe.even-better-toml",
+        // workspace
+        "yzhang.markdown-all-in-one", // For writing assistance
+        "shd101wyy.markdown-preview-enhanced" // For enhanced preview
+      ],
+      "settings": {
+        "[markdown]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "markdown-preview-enhanced.previewTheme": "vue.css"
+      }
     }
   }
 
