@@ -47,6 +47,9 @@
         "shd101wyy.markdown-preview-enhanced" // For enhanced preview
       ],
       "settings": {
+        "[rust]": {
+          "editor.tabSize": 4
+        },
         "[markdown]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode"
         },
